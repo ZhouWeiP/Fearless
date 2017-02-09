@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:id="@+id/scr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    >
+<LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="软件盘测试111"
+
+
+        />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="软件盘测试222"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="软件盘测试3333"
+
+        />
+
+    <EditText
+        android:id="@+id/edt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="软件盘测试4444"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="软件盘测试5555"
+
+        />
+
+    <EditText
+        android:id="@+id/edt6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="软件盘测试6666"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edt7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="软件盘测试6666"
+
+        />
+
+    <EditText
+        android:id="@+id/edt8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="软件盘测试"
+
+        />
+
+    <EditText
+        android:id="@+id/edt9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="软件盘测试"
+
+        />
+
+    <EditText
+        android:id="@+id/edt10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="软件盘测试"
+
+        />
+
+    <EditText
+        android:id="@+id/edt11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="软件盘测试"
+
+        />
+
+    <EditText
+        android:id="@+id/edt12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="软件盘测试"
+
+        />
+</LinearLayout>
+</ScrollView>

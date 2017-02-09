@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="ADTextView">
+
+        //文字出现或消失的速度
+        <attr name="ad_text_view_speed" format="integer"></attr>
+
+        //文字停留的时间
+        <attr name="ad_text_view_internal" format="integer"></attr>
+
+        //前缀文字颜色
+        <attr name="ad_text_front_color" format="color"></attr>
+
+        //前缀文字大小
+        <attr name="ad_text_front_size" format="dimension"></attr>
+
+
+        //内容文字颜色
+        <attr name="ad_text_content_color" format="color"></attr>
+
+        //内容文字大小
+        <attr name="ad_text_content_size" format="dimension"></attr>
+
+    </declare-styleable>
+    
+    
+</resources>

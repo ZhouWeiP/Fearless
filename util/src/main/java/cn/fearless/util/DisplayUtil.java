@@ -60,6 +60,12 @@ public class DisplayUtil {
     }
 
 
+    public static float sp2pxFloat(Context context, float spValue) {
+        final float fontScale = context.getResources().getDisplayMetrics().scaledDensity;
+        return (spValue * fontScale + 0.5f);
+    }
+
+
     public static String DesityAndScaledDensity(Context context){
         final float density = context.getResources().getDisplayMetrics().density;
 

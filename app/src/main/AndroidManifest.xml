@@ -7,14 +7,58 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="false"
+        >
+        <activity android:name=".MainActivity"
+
+            >
+
+
+
+        </activity>
+
+        <activity android:name=".RxJavaActivity"/>
+        <activity android:name=".ProgressBarActivity">
+
+
+        </activity>
+
+        <activity android:name=".CanvasDrawAcitvity">
+
+        </activity>
+
+        <activity android:name=".Html5Activity">
+
+
+        </activity>
+
+        <activity android:name=".KeyboardActivity"
+                  android:windowSoftInputMode="adjustUnspecified|stateHidden"
+                  android:configChanges="orientation|keyboardHidden"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
+        <activity android:name=".PieViewActivity">
+
+
+        </activity>
+
+        <activity android:name=".PathActivity">
+
+        </activity>
+
+
+        <meta-data android:name="design_width" android:value="1080">
+        </meta-data>
+        <meta-data android:name="design_height" android:value="1920">
+        </meta-data>
     </application>
 
 </manifest>

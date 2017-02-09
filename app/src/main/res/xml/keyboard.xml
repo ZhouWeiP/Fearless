@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- 数字键盘 -->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+          android:horizontalGap="5dp"
+          android:keyHeight="8%p"
+          android:keyWidth="15%p"
+          android:verticalGap="5dp">
+    <Row
+
+        >
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_7" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_8" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_9" />
+
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_jia" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_douhao" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_dayudengyu" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_sqart1" />
+    </Row>
+    <Row
+
+        >
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_4" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_5" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_6" />
+
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_jian" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_maohao" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_xiaoyudengyu" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_fenshu" />
+    </Row>
+    <Row
+
+        >
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_1" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_2" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_3" />
+
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_cheng" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_dushu" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_dayu" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_pingfang" />
+    </Row>
+
+    <Row
+
+        >
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_0" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_dengyu" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_dengyu" />
+
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_chuyi" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_xiaoyu" />
+
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_baifenhao" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_pingfang2" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_pai" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_jiajian" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_budengyu" />
+
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_ciyate" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_xiaoyu" />
+
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_shuxian" />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_baohan" />
+
+
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_jiaoji" />
+
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_bingji"
+
+            />
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@mipmap/key_baohan" />
+    </Row>
+</Keyboard>

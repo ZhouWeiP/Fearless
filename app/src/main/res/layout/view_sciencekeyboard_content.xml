@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+    >
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:id="@+id/ll_KeyBoardGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_keyboard_group"
+        android:orientation="vertical"
+        android:visibility="invisible"
+
+        >
+
+    <RelativeLayout
+        android:id="@+id/rl_chemistrykeyboard"
+        android:layout_width="240px"
+        android:layout_height="120px"
+        android:background="@color/white"
+        >
+        <TextView
+            android:id="@+id/tv_chemistrykeyboard"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="12sp"
+            android:text="化学键盘"
+            android:gravity="center"
+            android:textColor="#2a2a2a"
+            android:layout_marginLeft="30px"
+            android:layout_centerInParent="true"
+            />
+
+
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_physicskeyboard"
+            android:layout_width="240px"
+            android:layout_height="120px"
+            android:background="@color/white"
+            >
+            <TextView
+                android:id="@+id/tv_physicskeyboard"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:text="物理键盘"
+                android:gravity="center"
+                android:textColor="#2a2a2a"
+                android:layout_marginLeft="30px"
+                android:layout_centerInParent="true"
+                />
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_systemkeyboard"
+            android:layout_width="240px"
+            android:layout_height="120px"
+            android:background="@color/white"
+            >
+            <TextView
+                android:id="@+id/tv_systemkeykeyboard"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:text="系统键盘"
+                android:gravity="center"
+                android:textColor="#2a2a2a"
+                android:layout_marginLeft="30px"
+                android:layout_centerInParent="true"
+                />
+
+
+
+        </RelativeLayout>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+
+
+    
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120px"
+            android:background="#2a2a2a"
+            android:orientation="horizontal"
+
+            >
+
+            <RelativeLayout
+                android:id="@+id/rl_switchKeyBoard"
+                android:layout_width="240px"
+                android:layout_height="match_parent"
+                android:background="#2a2a2a"
+                >
+          <TextView
+              android:id="@+id/tv_sciencekeyboard"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:textSize="12sp"
+              android:text="数学键盘"
+              android:gravity="center"
+              android:textColor="@color/white"
+              android:layout_marginLeft="30px"
+              />
+                
+                <ImageView
+                    android:id="@+id/iv_sciencekeyboard_arrows"
+                    android:layout_toRightOf="@id/tv_sciencekeyboard"
+                    android:layout_width="26px"
+                    android:layout_height="18px"
+                    android:layout_marginLeft="10px"
+                    android:background="@mipmap/icon_keyboard_down_white"
+                    android:layout_centerVertical="true"
+                    />
+                
+         <View
+             android:layout_width="0.9px"
+             android:layout_height="70px"
+             android:background="#767676"
+             android:layout_gravity="center_vertical"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_arrows_left"
+                android:layout_width="150px"
+                android:layout_height="match_parent"
+                android:background="#2a2a2a"
+                >
+
+
+                <ImageView
+                    android:id="@+id/iv_arrows_left"
+                    android:layout_width="40px"
+                    android:layout_height="24px"
+                    android:src="@mipmap/icon_left_white"
+                    android:layout_centerInParent="true"
+                    />
+                <View
+                    android:layout_width="0.9px"
+                    android:layout_height="70px"
+                    android:background="#767676"
+                    android:layout_gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/rl_arrows_right"
+                android:layout_width="150px"
+                android:layout_height="match_parent"
+                android:background="#2a2a2a"
+                >
+
+
+                <ImageView
+                    android:id="@+id/iv_arrows_right"
+                    android:layout_width="40px"
+                    android:layout_height="24px"
+                    android:src="@mipmap/icon_right_white"
+                    android:layout_centerInParent="true"
+                    />
+
+                <View
+                    android:layout_width="0.9px"
+                    android:layout_height="70px"
+                    android:background="#767676"
+                    android:layout_gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_delete"
+                android:layout_width="150px"
+                android:layout_height="match_parent"
+                android:background="#2a2a2a"
+                >
+
+
+                <ImageView
+                    android:id="@+id/iv_delete"
+                    android:layout_width="40px"
+                    android:layout_height="24px"
+                    android:src="@mipmap/icon_keyboard_delete_white"
+                    android:layout_centerInParent="true"
+                    />
+                <View
+                    android:layout_width="0.9px"
+                    android:layout_height="70px"
+                    android:background="#767676"
+                    android:layout_gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_functionlinefree"
+                android:layout_width="240px"
+                android:layout_height="match_parent"
+                android:background="#2a2a2a"
+                >
+                <TextView
+
+                    android:id="@+id/tv_functionlinefree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:text="函数换行"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_centerInParent="true"
+                    />
+
+
+                <View
+                    android:layout_width="0.9px"
+                    android:layout_height="70px"
+                    android:background="#767676"
+                    android:layout_gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150px"
+                android:layout_height="match_parent"
+                android:background="#2a2a2a"
+                >
+
+
+                <ImageView
+                    android:layout_width="40px"
+                    android:layout_height="24px"
+                    android:src="@mipmap/icon_keyboard_down_white"
+                    android:layout_centerInParent="true"
+                    />
+
+
+            </RelativeLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/rlv_keyboard"
+    android:layout_width="match_parent"
+    android:layout_height="594px"
+     android:background="#f2f2f2"
+    />
+
+
+
+        <com.zhy.autolayout.AutoFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="128px"
+            android:layout_marginTop="12px"
+            android:background="#fafafa"
+
+            >
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/auto_ll_bottom1"
+            android:visibility="visible"
+
+            >
+
+            <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:id="@+id/rl_key_pai"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="98px"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@drawable/bg_keyboard_item"
+                                                   android:layout_marginLeft="12px"
+                >
+
+
+                <ImageView
+
+                    android:layout_width="16.7dp"
+                    android:layout_height="19.7dp"
+                    android:src="@mipmap/key_pai"
+                    android:layout_centerInParent="true"
+                    />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:id="@+id/rl_key_jiajian"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="98px"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@drawable/bg_keyboard_item"
+                                                   android:layout_marginLeft="12px"
+                >
+
+
+                <ImageView
+
+                    android:layout_width="16.7dp"
+                    android:layout_height="19.7dp"
+                    android:src="@mipmap/key_jiajian"
+                    android:layout_centerInParent="true"
+                    />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+
+
+            <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                                                   android:id="@+id/rl_key_budengyu"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="98px"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@drawable/bg_keyboard_item"
+                                                   android:layout_marginLeft="12px"
+                >
+
+
+                <ImageView
+
+                    android:layout_width="16.7dp"
+                    android:layout_height="19.7dp"
+                    android:src="@mipmap/key_budengyu"
+                    android:layout_centerInParent="true"
+                    />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:id="@+id/rl_key_ciyate"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="98px"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@drawable/bg_keyboard_item"
+                                                   android:layout_marginLeft="12px"
+                >
+
+
+                <ImageView
+
+                    android:layout_width="16.7dp"
+                    android:layout_height="19.7dp"
+                    android:src="@mipmap/key_ciyate"
+                    android:layout_centerInParent="true"
+                    />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+
+            <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:id="@+id/rl_key_shuxian"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="98px"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@drawable/bg_keyboard_item"
+                                                   android:layout_marginLeft="12px"
+                >
+
+
+                <ImageView
+
+                    android:layout_width="16.7dp"
+                    android:layout_height="19.7dp"
+                    android:src="@mipmap/key_shuxian"
+                    android:layout_centerInParent="true"
+                    />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+
+            <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:id="@+id/rl_key_baohan"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="98px"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@drawable/bg_keyboard_item"
+                                                   android:layout_marginLeft="12px"
+                >
+
+
+                <ImageView
+
+                    android:layout_width="16.7dp"
+                    android:layout_height="19.7dp"
+                    android:src="@mipmap/key_baohan"
+                    android:layout_centerInParent="true"
+                    />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+
+
+            <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                                                   android:id="@+id/rl_key_bingji"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="98px"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@drawable/bg_keyboard_item"
+                                                   android:layout_marginLeft="12px"
+                >
+
+
+                <ImageView
+
+                    android:layout_width="16.7dp"
+                    android:layout_height="19.7dp"
+                    android:src="@mipmap/key_bingji"
+                    android:layout_centerInParent="true"
+                    />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                                                   android:id="@+id/rl_key_jiaoji"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="98px"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@drawable/bg_keyboard_item"
+                                                   android:layout_marginLeft="12px"
+                >
+
+
+                <ImageView
+
+                    android:layout_width="16.7dp"
+                    android:layout_height="19.7dp"
+                    android:src="@mipmap/key_jiaoji"
+                    android:layout_centerInParent="true"
+                    />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:id="@+id/rl_more"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:background="@drawable/bg_keyboard_item_sangedian"
+                                                   android:layout_marginLeft="12px"
+                                                   android:layout_marginRight="12px"
+                >
+
+
+                <TextView
+
+                    android:layout_width="16.7dp"
+                    android:layout_height="19.7dp"
+                    android:text="..."
+                    android:textColor="@color/white"
+                    android:layout_centerInParent="true"
+                    />
+            </com.zhy.autolayout.AutoRelativeLayout>
+            
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:id="@+id/auto_ll_bottom2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                >
+
+                <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                                                      android:id="@+id/rl_key_e"
+                                                       android:orientation="vertical"
+                                                       android:layout_width="98px"
+                                                       android:layout_height="match_parent"
+                                                       android:background="@drawable/bg_keyboard_item"
+
+                                                       android:layout_marginLeft="12px"
+                    >
+
+
+                    <ImageView
+
+                        android:layout_width="16.7dp"
+                        android:layout_height="19.7dp"
+                        android:src="@mipmap/key_e"
+                        android:layout_centerInParent="true"
+                        />
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                       android:id="@+id/rl_key_jiajian2"
+                                                       android:orientation="vertical"
+                                                       android:layout_width="98px"
+                                                       android:layout_height="match_parent"
+                                                       android:background="@drawable/bg_keyboard_item"
+                                                       android:layout_marginLeft="12px"
+                    >
+
+
+                    <ImageView
+
+                        android:layout_width="16.7dp"
+                        android:layout_height="19.7dp"
+                        android:src="@mipmap/key_jiajian"
+                        android:layout_centerInParent="true"
+                        />
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+
+
+                <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                       android:id="@+id/rl_key_zuokuohao"
+                                                       android:orientation="vertical"
+                                                       android:layout_width="98px"
+                                                       android:layout_height="match_parent"
+                                                       android:background="@drawable/bg_keyboard_item"
+                                                       android:layout_marginLeft="12px"
+                    >
+
+
+                    <ImageView
+
+                        android:layout_width="16.7dp"
+                        android:layout_height="19.7dp"
+                        android:src="@mipmap/key_zuokuohao"
+                        android:layout_centerInParent="true"
+                        />
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+
+
+
+                <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                       android:id="@+id/rl_key_youkuohao"
+                                                       android:orientation="vertical"
+                                                       android:layout_width="98px"
+                                                       android:layout_height="match_parent"
+                                                       android:background="@drawable/bg_keyboard_item"
+                                                       android:layout_marginLeft="12px"
+                    >
+
+
+                    <ImageView
+
+                        android:layout_width="16.7dp"
+                        android:layout_height="19.7dp"
+                        android:src="@mipmap/key_youkuohao"
+                        android:layout_centerInParent="true"
+                        />
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+
+                <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                       android:id="@+id/rl_key_zuozhongkuohao"
+                                                       android:orientation="vertical"
+                                                       android:layout_width="98px"
+                                                       android:layout_height="match_parent"
+                                                       android:background="@drawable/bg_keyboard_item"
+                                                       android:layout_marginLeft="12px"
+                    >
+
+
+                    <ImageView
+
+                        android:layout_width="16.7dp"
+                        android:layout_height="19.7dp"
+                        android:src="@mipmap/key_zuozhongkuohao"
+                        android:layout_centerInParent="true"
+                        />
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+
+
+                <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                                                       android:id="@+id/rl_key_youzhongkuohao"
+                                                       android:orientation="vertical"
+                                                       android:layout_width="98px"
+                                                       android:layout_height="match_parent"
+                                                       android:background="@drawable/bg_keyboard_item"
+                                                       android:layout_marginLeft="12px"
+                    >
+
+
+                    <ImageView
+
+                        android:layout_width="16.7dp"
+                        android:layout_height="19.7dp"
+                        android:src="@mipmap/key_youzhongkuohao"
+                        android:layout_centerInParent="true"
+                        />
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                       android:id="@+id/rl_key_zuodakuohao"
+                                                       android:orientation="vertical"
+                                                       android:layout_width="98px"
+                                                       android:layout_height="match_parent"
+                                                       android:background="@drawable/bg_keyboard_item"
+                                                       android:layout_marginLeft="12px"
+                    >
+
+
+                    <ImageView
+
+                        android:layout_width="16.7dp"
+                        android:layout_height="19.7dp"
+                        android:src="@mipmap/key_zuodakuohao"
+                        android:layout_centerInParent="true"
+                        />
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+
+                <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                       android:id="@+id/rl_key_youdakuohao"
+                                                       android:orientation="vertical"
+                                                       android:layout_width="98px"
+                                                       android:layout_height="match_parent"
+                                                       android:background="@drawable/bg_keyboard_item"
+                                                       android:layout_marginLeft="12px"
+                    >
+
+
+                    <ImageView
+
+                        android:layout_width="16.7dp"
+                        android:layout_height="19.7dp"
+                        android:src="@mipmap/key_youdakuohao"
+                        android:layout_centerInParent="true"
+                        />
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+
+                <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                       android:id="@+id/rl_more2"
+                                                       android:orientation="vertical"
+                                                       android:layout_width="match_parent"
+                                                       android:layout_height="match_parent"
+                                                       android:background="@drawable/bg_keyboard_item_sangedian"
+                                                       android:layout_marginLeft="12px"
+                                                       android:layout_marginRight="12px"
+                    >
+
+
+                    <TextView
+
+                        android:layout_width="16.7dp"
+                        android:layout_height="19.7dp"
+                        android:text="..."
+                        android:textColor="@color/white"
+                        android:layout_centerInParent="true"
+                        />
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+
+
+
+
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+
+        </com.zhy.autolayout.AutoFrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        android:background="#fafafa"
+        />
+
+</com.zhy.autolayout.AutoLinearLayout>
